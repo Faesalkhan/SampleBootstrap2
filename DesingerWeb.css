@@ -1,0 +1,93 @@
+.nav-link{
+    margin-inline: 1rem;
+}
+.btn{
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.bg-2{
+    background-color: rgba(143, 170, 212, 0.831);
+}
+.border-cust{
+    border: 1px solid black;
+}
+.border-cust:hover{
+    border: 2px solid rgb(74, 138, 207);
+}
+.icon:hover{
+    background-color: rgb(74, 138, 207);
+}
+.service:hover .icon{
+    background-color: rgb(74, 138, 207);
+    transition: all 1s ease-in-out;
+}
+.icon,
+.p-2{
+    width: 50px;
+    height: 50px;
+}
+.bg-3{
+    background-color: rgb(225, 191, 136);
+}
+.carousel-item{
+    overflow: hidden;
+    position: relative;
+}
+.carousel-item .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    transform: translateY(100px);
+}
+.carousel-item:hover .overlay{
+    opacity: 1;
+    transform: translateY(0);
+}
+.bg-4{
+    background-color: rgb(213, 140, 106);
+}
+.rev-img{
+    width: 200px;
+    height: 200px;
+}
+.linksicon{
+    width: 40px;
+    height: 40px;
+    background-color: greenyellow;
+}
+.linksicon:hover{
+    background-color: green;
+}
+.bg-5{
+    background-color: steelblue;
+}
+.bg-6{
+    background-color: #82a9d0;
+}
+.instawall{
+    position: relative;
+}
+.instabtn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    color: black;
+}
+.scrolltotop{
+    background-color: #82a9d0;
+    padding: 1rem;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
